@@ -1,7 +1,12 @@
 package br.com.phc.brasileiraoapi.dto;
 
 import java.io.Serializable;
+import lombok.*;
 
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class PartidaGoogleDTO implements Serializable {
 
 	private final static long serialVersionUID = 1L;
